@@ -1,6 +1,6 @@
 ﻿namespace Pixel_Playhouse;
 
-public abstract class Creature
+public class Creature
 {
     protected string? Name { get; set; }
     protected int HitPoint { get; set; }

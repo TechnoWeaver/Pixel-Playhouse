@@ -1,6 +1,6 @@
 ﻿namespace Pixel_Playhouse;
 
-public abstract class WorldObject
+public class WorldObject
 {
     public string? Name { get; set; }
     public bool Lootable { get; set; }
