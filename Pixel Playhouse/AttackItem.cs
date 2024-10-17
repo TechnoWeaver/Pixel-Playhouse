@@ -1,5 +1,8 @@
 ﻿namespace Pixel_Playhouse;
 
+/// <summary>
+/// Represents an abstract based class for the attack item.
+/// </summary>
 public abstract class AttackItem : WorldObject
 {
     /// <summary>
