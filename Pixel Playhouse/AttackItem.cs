@@ -22,7 +22,7 @@ public abstract class AttackItem : WorldObject
     }
 
     /// <summary>
-    /// A method to initialize the world object.
+    /// A method to initialize the AttackItem.
     /// 
     protected new void InitializeWorldObject()
     {
