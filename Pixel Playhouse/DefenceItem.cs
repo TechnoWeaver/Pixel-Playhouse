@@ -7,12 +7,12 @@ public abstract class DefenceItem: WorldObject
 {
     /// <summary>
     /// A variable representing the hit points that the attack item is reduced by.
-    protected int defensePoints;
+    protected int defencePoints;
 
     /// <summary>
     /// Gets the defense points of the item.
     /// 
-    public int DefensePoints => defensePoints;
+    public int DefencePoints => defencePoints;
 
     /// <summary>
     /// A constructor for the defence item.
@@ -28,7 +28,7 @@ public abstract class DefenceItem: WorldObject
     protected new void InitializeWorldObject()
     {
         SetName();
-        SetDefensePoints();
+        SetDefencePoints();
         SetLootableState();
         SetRemoveableState();
     }
@@ -36,5 +36,5 @@ public abstract class DefenceItem: WorldObject
     /// <summary>
     /// A method which must be implemented to set the defense points of the item.
     /// 
-    public abstract void SetDefensePoints();
+    public abstract void SetDefencePoints();
 }
