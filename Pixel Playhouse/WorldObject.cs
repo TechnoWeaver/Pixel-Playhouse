@@ -1,24 +1,6 @@
 ﻿namespace Pixel_Playhouse;
 
 /// <summary>
-/// An enumeration representing the lootable state of a world object.
-/// </summary>
-public enum IsLootable
-{
-    Yes,
-    No
-}
-
-/// <summary>
-/// An enumeration representing the removeable state of a world object.
-/// </summary>
-public enum IsRemoveable
-{
-    Yes,
-    No
-}
-
-/// <summary>
 /// An abstract class representing a world object.
 /// </summary>
 public abstract class WorldObject
