@@ -1,19 +1,29 @@
 ﻿namespace Pixel_Playhouse;
 
 /// <summary>
-/// Represents an abstract based class for the attack item.
+/// An abstract class for attack items.
 /// </summary>
 public abstract class AttackItem : WorldObject
 {
     /// <summary>
-    /// Gets or sets the hit points of the attack item.
+    /// A variable representing the amount of damage the attack item deals.
     /// </summary>
-    public int Hit { get; set; }
+    protected int hit;
 
     /// <summary>
-    /// Gets or sets the range of the attack item.
+    /// A variable representing the range of the attack item.
+    /// </summary>
+    protected int range;
+
+    /// <summary>
+    /// Gets the damage of the attack item.
+    /// </summary>
+    public int Hit => hit;
+
+    /// <summary>
+    /// Gets the range of the attack item.
     /// 
-    public int Range { get; set; }
+    public int Range => range;
 
 
     /// <summary>
